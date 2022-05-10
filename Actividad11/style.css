@@ -1,0 +1,36 @@
+button{
+  margin-top: 0.5rem;
+  width: 5rem;
+  background-color: rgb(36, 35, 35);
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.3rem;
+}
+.button__extend{
+  width: 10.3rem !important;
+}
+.result_box {
+  border: 3px solid  rgb(36, 35, 35);
+  width: 20rem;
+  margin-bottom: 0.5rem;
+  text-align: right;
+  padding: 0.5rem;
+  background-color:  rgb(36, 35, 35);
+}
+.input__result{
+  width: 100px;
+  text-align: right;
+  background-color:  rgb(36, 35, 35);
+  color: #ffffff !important;
+  font-size: 1.7rem;
+  font-weight: 500;
+  border: none;
+}
+.calculator__container {
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px)
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}

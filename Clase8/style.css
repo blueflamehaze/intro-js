@@ -1,0 +1,27 @@
+.counter {
+  font-size: 4rem;
+}
+.counter_box {
+  text-align: center;
+  width: 260px;
+}
+
+.button {
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.increment_button {
+  background-color: rgb(67, 156, 16);
+}
+
+.decrease_button {
+  background-color: rgb(240, 17, 17);
+}
+
+.reset_button {
+  background-color: rgb(7, 108, 145);
+}
